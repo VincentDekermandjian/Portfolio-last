@@ -1,0 +1,245 @@
+body {
+  margin: 0s
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../src/OfficePink.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#TDP {
+
+  height:
+    width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: transparent;
+  font-family: 'Comfortaa', cursive;
+  
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: paleturquoise;
+  transition-duration: 00ms;
+}
+
+#centre {
+
+  background-position: center;
+  background-size: cover;
+  height: 40%;
+  width: 80%;
+  display: flex;
+  flex-direction: column
+}
+
+#logo {
+  background-image: url(../src/logobg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 45%;
+}
+
+.kenburns-top {
+  -webkit-animation: kenburns-top 3s ease-out infinite both;
+  animation: kenburns-top 3s ease-out infinite both;
+}
+
+
+#titre {
+  background-color;
+  height: 20%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+
+#titre2 {
+  background-image: url(../src/fb.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+#titre3 {
+  background-image: url(../src/twt.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#titre4 {
+  background-image: url(../src/lin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#titre5 {
+  background-image: url(../src/git.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#titre6 {
+  background-image: url(../src/ph.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+#info {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Comfortaa', cursive;
+  color: black
+}
+
+#BDP {
+  height: 10%;
+  width: inherit;
+  font-family: 'Gamja Flower', cursive;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+}
+
+#blanc {
+  height: 10%;
+  width: 100%;
+  background-color: grey;
+}
+
+
+
+
+
+#page2 {
+  height: 100vh;
+  background-color: red;
+}
+
+
+#page3
+{
+  height: 100vh;
+  background-color: gold;
+}
+
+#page4
+{
+  height: 100vh;
+  background-color: cornsilk
+}
+
+
+
+
+.flex-container {
+  height: 80%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item_titre {
+  width: inherit;
+}
+
+.infobar {
+  border-bottom: 1px solid;
+  margin: 0;
+  width: inherit;
+  height: 50%;
+  color: black;
+
+}
+
+
+@-webkit-keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 40% 13%;
+    transform-origin: 40% 13%;
+  }
+
+  50% {
+    -webkit-transform: scale(1.00) translateY(-5px);
+    transform: scale(1.00) translateY(-5px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+  
+  100% {
+    -webkit-transform: scale(1.00) translateY(-5px);
+    transform: scale(1.00) translateY(-5px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+  
+  
+  
+  
+  
+}
+
+@keyframes kenburns-top {
+  0% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 13%;
+    transform-origin: 50% 13%;
+  }
+
+  50% {
+    -webkit-transform: scale(1) translateY(-15px);
+    transform: scale(1.1) translateY(-15px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+  }
+  
+  100% {
+    -webkit-transform: scale(1) translateY(0);
+    transform: scale(1) translateY(0);
+    -webkit-transform-origin: 50% 13%;
+    transform-origin: 50% 13%;
+  }
+}
